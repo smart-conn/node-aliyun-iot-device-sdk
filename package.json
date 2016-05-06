@@ -1,0 +1,17 @@
+{
+  "name": "aliyuniot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "mqtt": "^1.10.0",
+    "request": "^2.72.0"
+  }
+}
