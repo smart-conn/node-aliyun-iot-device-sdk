@@ -47,7 +47,8 @@ const connect = Promise.coroutine(function*(appKey, appSecret, deviceId, deviceS
     clientId: appKey + ':' + deviceId,
     username: createUsername(appKey, appSecret, deviceId, deviceSecret),
     rejectUnauthorized: false,
-    cert: pubkey
+    cert: pubkey,
+    keepalive: 120
   });
 
 });
